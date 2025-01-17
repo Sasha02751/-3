@@ -4,9 +4,6 @@ def find_first_index(items_list, item):
         if items_list[i] == item:
             return i
 
-    return None
-
-
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
 
 for find_item in ['банан', 'груша', 'персик']:
